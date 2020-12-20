@@ -1,0 +1,64 @@
+
+.app-store-section {
+margin-top: 152px ;
+margin-bottom: 70px;
+
+}
+
+.rectangle {
+width: 1184px ;
+height: 414px;
+background: #4958AA;
+border-radius: 40px ;
+opacity: 100;
+margin: 0 auto ; 
+
+
+}
+
+.app-store-row {
+display: grid;
+width: 1184px;
+grid-template-columns: 511px 513px ;
+align-items: start;
+justify-content: space-between;
+}
+/*
+.app-column-1 {
+}*/
+
+.app-column-1 > h3 {
+font-weight: 600;
+font-size: 50px;
+line-height: 50px;
+color: #ffffff;
+padding-top:55px;
+padding-bottom: 20px;
+padding-left: 70px;
+}
+
+.store-img-row {
+justify-content: center;
+display: grid ;
+grid-template-columns: 239px 239px ;
+column-gap: 28.75px;
+padding-left: 130px;
+}
+
+.store-img-col {
+grid: 50%;
+}
+
+.store-img {
+width: 239px;
+height: 77px;
+}
+
+/*
+.app-column-2 {
+}*/
+
+.phone-img {
+width: 513px ;
+height: 524px;
+}

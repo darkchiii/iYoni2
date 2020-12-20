@@ -1,0 +1,64 @@
+.base-section {
+margin: 0 auto ;
+padding-top: 0px;
+}
+
+.base-rectangle {
+height: 538px;
+width: 1024px;
+width: 100%;
+background: #F872A1;
+}
+
+.base-rectangle >h1 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 57.6px;
+    letter-spacing: -1.1px;
+    text-align: center;
+    color: #fffbfd;
+    padding-top: 125px ;
+}
+
+.base-row-1 {
+display: grid;
+grid-template-columns: 347px 347px 347px;
+grid-gap:38px ;
+
+/*nie dalo sie wycentrowac*/ 
+padding-left: 150px;
+}
+
+.base-img {
+    height: 299px;
+    width:347px;
+}
+
+.col-row-1 {
+    position: relative;
+}
+
+.btn {
+    width: 299px ;
+    cursor: pointer; /*nie dziala*/
+
+}
+
+.col-row-1 .btn {
+    position: absolute;
+    top:79% ;
+    left: 6% ;
+    border: none;
+    background-color: #3A4BA3;
+    font-size: 15px;
+    font-family: 'Averta';
+    color: #ffffff;
+    padding: 4px 30px;
+    cursor: pointer;
+    border-radius: 8px;
+    text-align: center;
+
+}
+
+
+

@@ -1,0 +1,99 @@
+
+.functions-section {
+margin-top: 167px;
+justify-content: center;
+}
+
+.functions-section > h1 {
+font-weight: 600;
+font-size: 48px;
+line-height: 57.6px;
+letter-spacing: -1.1px;
+color: #31429B ;
+text-align: center;
+justify-content: center;
+align-items: center;
+}
+
+.row:after {
+    display: grid ;
+    justify-content: center;
+    align-content: center;
+    grid-auto-flow: column;
+    content: "";
+    column-gap: 200px; /*nie dziala*/
+display: table ;
+clear: both; 
+}
+
+.row2:after {
+    display: grid ;
+    grid-template-columns: 201px 201px 201px;
+    justify-content: center;
+    align-content: center;
+    grid-auto-flow: column;
+    content: "";
+    display: table ;
+    clear: both; 
+/*content: "";
+display: table ;
+clear: both; */
+}
+
+.column {
+    float: right;
+    width:25% ;
+}
+
+.column2 {
+    margin-top: 64px;
+    margin-bottom: 100px;
+    float: right;
+    width: 33.33%;
+}
+
+.figure {
+
+text-align: center; 
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: -1.1px;
+color: #19126C;
+text-indent: 0 ;
+}
+
+.fig-img {
+width: 90px ;
+height: 90px;
+}
+
+.fig-caption {
+    text-align: center;
+    /* display: inline-block;
+    max-width: 200px; */
+
+}
+
+.stores-wrapper {
+margin:0 auto ;
+
+}
+
+.store-row {
+    justify-content: center;
+    display: grid ;
+    grid-template-columns: 239px 239px ;
+    column-gap: 20px;
+
+}
+
+.store-column {
+grid: 50% ;
+}
+
+.store-img {
+width: 170px;
+height: 57px;
+}
+
