@@ -3,8 +3,6 @@
   margin-top: 190px;
 }
 
-.grid-wrapper { 
-}
 
 .benefits-grid-wrapper {
 display: grid ;
@@ -86,21 +84,6 @@ grid-template-columns: 40px 580px;
 grid-gap: 16px;
 }
 
-.benefits-col-1 {
-
-}
-
-.benefits-vector {
-
-}
-
-.benefits-col-2 {
-
-}
-
-.benefits-col-2 >p1 {
-
-}
 
 .items-wrapper {
   display: inline-block;

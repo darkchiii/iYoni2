@@ -31,7 +31,7 @@ function Footer() {
                 <div className='social-media-wrap'>
                     <div className='footer-logo'>
                     <Link to="/" className="social-logo">
-                    <img className="logo-footer" src='/images/logo-footer.png' 
+                    <img className="logo-footer" src='./images/logo-footer.png' 
                     alt='logo-footer' /> 
                     </Link>
                     </div>

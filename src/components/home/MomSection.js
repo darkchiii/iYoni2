@@ -8,7 +8,7 @@ function MomSection() {
             <div className='happy-mom-container'>
                 <div className='happy-mom-row'>
                     <div className='mom-column1'>
-                    <img className='happy-mom-pic' src='/images/happy-mom.png' alt='happy-mom'/>
+                    <img className='happy-mom-pic' src='./images/happy-mom.png' alt='happy-mom'/>
                     </div>
                     <div className='mom-column2-rectangle'>
                         <div className='text-wrapper'>
