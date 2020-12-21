@@ -13,6 +13,8 @@ color: #31429B ;
 text-align: center;
 justify-content: center;
 align-items: center;
+
+padding-bottom: 70px;
 }
 
 .row:after {

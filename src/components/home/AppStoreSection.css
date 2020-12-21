@@ -13,7 +13,10 @@ border-radius: 40px ;
 opacity: 100;
 margin: 0 auto ; 
 
-
+position: relative;
+background-position: right;
+background-repeat: no-repeat ;
+background-size: 100%;
 }
 
 .app-store-row {
@@ -22,6 +25,8 @@ width: 1184px;
 grid-template-columns: 511px 513px ;
 align-items: start;
 justify-content: space-between;
+
+padding-top: 30px;
 }
 /*
 .app-column-1 {
@@ -43,6 +48,7 @@ display: grid ;
 grid-template-columns: 239px 239px ;
 column-gap: 28.75px;
 padding-left: 130px;
+padding-top: 70px;
 }
 
 .store-img-col {
@@ -61,4 +67,10 @@ height: 77px;
 .phone-img {
 width: 513px ;
 height: 524px;
+
+
+position: absolute;
+top: -110px;
+right: 0;
+
 }

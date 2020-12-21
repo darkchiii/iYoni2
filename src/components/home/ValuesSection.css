@@ -1,16 +1,24 @@
 
 .values-section-container {
-padding-bottom: 50px;
+padding-top: 100px;
+padding-left: 162px;
 }
 
 .values-rectangle {
-width: 1517px; 
+width: 100% ; 
 height: 792px;
 background: linear-gradient(180deg, #F4F7FF 0%, #FFFFFF 100%);
 border-radius: 60px;
-margin-left: 133px;
-margin-top: 93px;
+/* margin-left: 133px; */
+/* margin-top: 93px; */
 }
+
+.values-rectangle:before {
+position: relative;
+width: 100%;
+
+}
+
 
 .values-rectangle >h1 {
     font-weight: 600;
@@ -73,7 +81,7 @@ color: #1F3162;
     background-color: #DADEFC;
     border: 1px solid #DADEFC;
 transform: rotate(180deg);
-width: 985px;
+/* width: 985px; */
 margin-left: 29px ;
 margin-bottom: 40px;
 }

@@ -26,8 +26,8 @@ function MomSection() {
             </div>
             <div className='text-wrapper2'>
                 <h1>Podjęłaś dezycję i<br/>chcesz zostać mamą?</h1> 
-                <p><strong>Zwiększ swoje szanse na zajście ciąże i zadbaj o płodność. </strong> <br/>Dowiedz się, co na nią wpływa, prowadź „płodny” styl życia, z rozsądkiem się badaj. 
-                    Jeśli to konieczne – świadomie przejdź przez proces leczenia.
+                <p><b>Zwiększ swoje szanse na zajście ciąże i zadbaj o płodność. </b> <br/>Dowiedz się, co na nią wpływa, prowadź „płodny” styl życia, z <br/> rozsądkiem się badaj. 
+                    Jeśli to konieczne – świadomie przejdź<br/> przez proces leczenia.
                 </p>
                 <div className='mom-rectangle'>
                     <p className='p-rec'>

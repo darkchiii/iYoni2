@@ -17,11 +17,8 @@ function AppStoreSection() {
                             </div>
                         </div>
                     </div>
-                    <div className='app-column-2'>
-                    <img className='phone-img' src='./images/phone-mockup.png' alt='phone-img'/>
-                    </div>
                 </div>
-
+                <img className='phone-img' src='./images/phone-mockup.png' alt='phone-img'/>
             </div>
         </section>
     )
