@@ -24,6 +24,14 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+
+/* rest of app styles */
+
 /* make sure to set some focus styles for accessibility */
 :focus {
     outline: 0;

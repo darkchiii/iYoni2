@@ -1,3 +1,8 @@
+.hero-section 
+{
+padding-bottom: 68px;
+}
+
 .hero-container {
     margin-top: 81px;
     height: 100vh;
@@ -8,8 +13,8 @@
     align-items: center;
     object-fit: contain ; 
 
-
     background-size: cover;
+    padding-bottom: 68px;
 }
 
 
@@ -53,7 +58,7 @@
 }
 
 .hero-column-1 {
-    /*padding-left: 30px; */
+/*padding-left: 30px; */
 /* padding-top: 121px; */ 
 display: flex ;
 width: 50%;
@@ -66,7 +71,7 @@ font-size: 48px;
 line-height: 52.8px;
 letter-spacing: -4%;
 color: #ffffff;
-padding-bottom: 44px;
+padding-bottom: 25px;
  /*czy w column?*/
 }
 
@@ -79,14 +84,12 @@ color: #ffffff;
 padding-bottom: 30px;
 }
 
-
-
 .store-logo-row {
     padding-left: 0;
     justify-content: center;
     display: grid ;
-    grid-template-columns: 239px 239px ; /*jak zmniejszyc?*/
-    column-gap: 0px;
+    grid-template-columns: 153px 153px ; /*jak zmniejszyc?*/
+    column-gap: 22px;
 }
 
 .store-logo-column {
@@ -94,7 +97,7 @@ grid:50%;
 }
 
 .hero-store-img {
-width: 100x;
+width: 153x;
 height: 52px;
 }
 

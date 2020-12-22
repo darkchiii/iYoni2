@@ -4,7 +4,7 @@ import './MomSection.css' ;
 
 function MomSection() {
     return (
-        <div>
+        <section className='mom-section-container'>
             <div className='happy-mom-container'>
                 <div className='happy-mom-row'>
                     <div className='mom-column1'>
@@ -35,7 +35,7 @@ function MomSection() {
                 <div className='mom-rectangle'>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 

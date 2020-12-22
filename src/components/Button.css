@@ -7,7 +7,7 @@
 .btn--primary {
     background-color: var(--pink);
     color: white ;
-    border: 2px solid var(--pink) ;
+    border: 3px solid var(--pink) ;
     outline: none;
     cursor: pointer;
     border-radius: 14px;
@@ -15,7 +15,7 @@
 }
 
 .btn--medium {
-    padding: 6px 16px;
+    padding: 10px 22px;
     font-size: 16px;
     font-family: Averta-Bold;
 }

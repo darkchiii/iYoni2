@@ -6,6 +6,7 @@ function BaseSection() {
         <section className='base-section'>
             <div className='base-rectangle'>
                 <h1>Poznaj naszą bazę<br/> wiedzy</h1>
+                <div className='baseContainer'>
                 <div className='base-row-1'>
                     <div className='col-row-1'>
                         <img className='base-img' src='./images/base1.png' alt='base1' />
@@ -20,6 +21,7 @@ function BaseSection() {
                         <img className='base-img' src='./images/base3.png' alt='base3' />
                         <button className='btn'>Szanse na ciążę – od czego zależą</button>
                     </div>
+                </div>
                 </div>
             </div>
 

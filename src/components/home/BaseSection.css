@@ -1,6 +1,7 @@
 .base-section {
-margin: 0 auto ;
-padding-top: 200px;
+/* vertical-align: middle; */
+/* float: none; */
+padding-bottom: 258px;
 }
 
 .base-rectangle {
@@ -8,6 +9,16 @@ height: 538px;
 width: 1024px;
 width: 100%;
 background: #F872A1;
+
+background-repeat: no-repeat ;
+background-size: 100%;
+}
+
+.baseContainer {
+    /* display: flex;
+    align-items: center;
+    justify-items: center;  */
+    vertical-align: middle;
 }
 
 .base-rectangle >h1 {
@@ -21,12 +32,15 @@ background: #F872A1;
 }
 
 .base-row-1 {
+    justify-content: center;
+
 display: grid;
 grid-template-columns: 347px 347px 347px;
 grid-gap:38px ;
+padding-top: 76px;
 
+/* position: absolute;  */
 /*nie dalo sie wycentrowac*/ 
-padding-left: 150px;
 }
 
 .base-img {

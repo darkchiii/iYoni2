@@ -3,6 +3,7 @@ import './HeroSection.css';
 
 function HeroSection() {
     return (
+        <section className='hero-section'>
         <div className='hero-container' style={{backgroundImage: 'url(./images/HeroSectionBanner.png)'}}> 
             <img className='hero-background' src='' alt='hero-bg' />
             <div className='hero-row'>
@@ -28,6 +29,7 @@ function HeroSection() {
         </div>
 
         </div >
+        </section>
 
     )
 }

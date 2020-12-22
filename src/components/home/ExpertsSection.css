@@ -1,9 +1,9 @@
 
 .experts-section {
-    margin-top: 60px;
     text-align: center;
     vertical-align: middle;
 float: none;
+padding-bottom: 150px;
 }
 
 .experts-section > h1 {
@@ -27,9 +27,6 @@ flex: 33.33%;
 
 }
 
-.experts-figure {
-
-}
 
 .experts-img {
 width: 174px;
@@ -40,11 +37,25 @@ height: 174px;
 padding-top: 13px;
 }
 
-.fig-caption > span {
-    font-weight: bold;
+.fig-caption > .fig-p1 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -1.1px;
+    letter-spacing: -1.09756px;
+    color: #000000;
 }
 
-.subtitle > h4 {
+.fig-caption > .fig-p2 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 36px;
+    letter-spacing: -0.6px;
+    line-height: 36px;
+    color: #000000;
+}
+
+.subtitle > p {
     font-weight: 400;
     font-size: 14px ;
     line-height: 36px;

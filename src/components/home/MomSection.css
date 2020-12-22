@@ -1,8 +1,10 @@
+.mom-section-container {
+    padding-bottom: 150px;
+}
+
 .happy-mom-container {
-padding-top: 64px;
 display: flex;
 margin:0 auto ;
-margin-top: 50px;
 }
 
 .happy-mom-row {
@@ -87,9 +89,9 @@ padding-top: 130px;
         padding-left: 60px;
     }
 
-    .base-button {
+    /* .base-button {
 
-    }
+    } */
 }
 
 .base-button {

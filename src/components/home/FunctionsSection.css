@@ -1,7 +1,7 @@
 
 .functions-section {
-margin-top: 167px;
 justify-content: center;
+padding-bottom: 106px;
 }
 
 .functions-section > h1 {
@@ -23,7 +23,7 @@ padding-bottom: 70px;
     align-content: center;
     grid-auto-flow: column;
     content: "";
-    column-gap: 200px; /*nie dziala*/
+    grid-gap: 10px; /*nie dziala*/
 display: table ;
 clear: both; 
 }
@@ -85,7 +85,7 @@ margin:0 auto ;
 .store-row {
     justify-content: center;
     display: grid ;
-    grid-template-columns: 239px 239px ;
+    grid-template-columns: 170px 170px ;
     column-gap: 20px;
 
 }

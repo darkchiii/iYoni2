@@ -9,7 +9,9 @@ function ExpertsSection() {
                 <div className='experts-column'>
                     <div className='experts-figure'>
                         <img className='experts-img' src='./images/expert.png' alt=''/>
-                        <div className='fig-caption'><span>Jan kowalski</span><br/> Ginekolog 
+                        <div className='fig-caption'>
+                        <p className='fig-p1'>Jan kowalski</p> 
+                        <p className='fig-p2'>Ginekolog</p>
                         </div>
                     </div>
                 </div>
@@ -17,7 +19,9 @@ function ExpertsSection() {
                 <div className='experts-column'>
                     <div className='experts-figure'>
                         <img className='experts-img' src='./images/expert.png' alt=''/>
-                        <div className='fig-caption'><span>Jan kowalski</span><br/> Ginekolog 
+                        <div className='fig-caption'>
+                            <p className='fig-p1'>Jan kowalski</p> 
+                            <p className='fig-p2'>Ginekolog</p>
                         </div>
                     </div>
                 </div>
@@ -25,13 +29,14 @@ function ExpertsSection() {
                 <div className='experts-column'>
                     <div className='experts-figure'>
                         <img className='experts-img' src='./images/expert.png' alt=''/>
-                        <div className='fig-caption'><span>Jan kowalski</span><br/> Ginekolog 
-                        </div>
+                        <div className='fig-caption'>
+                        <p className='fig-p1'>Jan kowalski</p> 
+                        <p className='fig-p2'>Ginekolog</p>                        </div>
                     </div>
                 </div>
             </div>
 
-            <div className='subtitle'> <h4> Wspierane przez</h4>
+            <div className='subtitle'> <p> Wspierane przez</p>
             </div>
 
             <div className='support-row'>

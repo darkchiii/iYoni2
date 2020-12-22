@@ -1,6 +1,6 @@
 
 .benefits-section {
-  margin-top: 190px;
+  padding-bottom: 90px;
 }
 
 
@@ -58,7 +58,7 @@ grid-area: desc;
 
 .iphone-mockup-box {
 box-sizing: border-box; 
-margin-left: -70px ;
+margin-left: 0px ;
 z-index: -1;
 display: inline-block ;
 vertical-align: top ;
