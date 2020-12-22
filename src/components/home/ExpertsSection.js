@@ -9,7 +9,7 @@ function ExpertsSection() {
                 <div className='experts-column'>
                     <div className='experts-figure'>
                         <img className='experts-img' src='./images/expert.png' alt=''/>
-                        <div className='fig-caption'>Jan kowalski <br/> Ginekolog 
+                        <div className='fig-caption'><span>Jan kowalski</span><br/> Ginekolog 
                         </div>
                     </div>
                 </div>
@@ -17,7 +17,7 @@ function ExpertsSection() {
                 <div className='experts-column'>
                     <div className='experts-figure'>
                         <img className='experts-img' src='./images/expert.png' alt=''/>
-                        <div className='fig-caption'>Jan kowalski <br/> Ginekolog 
+                        <div className='fig-caption'><span>Jan kowalski</span><br/> Ginekolog 
                         </div>
                     </div>
                 </div>
@@ -25,7 +25,7 @@ function ExpertsSection() {
                 <div className='experts-column'>
                     <div className='experts-figure'>
                         <img className='experts-img' src='./images/expert.png' alt=''/>
-                        <div className='fig-caption'>Jan kowalski <br/> Ginekolog 
+                        <div className='fig-caption'><span>Jan kowalski</span><br/> Ginekolog 
                         </div>
                     </div>
                 </div>

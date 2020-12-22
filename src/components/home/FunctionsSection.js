@@ -17,7 +17,7 @@ function FunctionsSection() {
 
                 <div className='column'>
                     <div className='figure'>
-                        <img className='fig-img' src='../images/fun2.png' alt='fun2'/>
+                        <img className='fig-img' src='./images/fun2.png' alt='fun2'/>
                         <div className='fig-caption'>Rejestracja<br/> codziennych<br/> aktywności
                         </div>
                     </div>

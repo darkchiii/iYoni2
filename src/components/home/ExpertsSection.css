@@ -37,7 +37,11 @@ height: 174px;
 }
 
 .fig-caption {
+padding-top: 13px;
+}
 
+.fig-caption > span {
+    font-weight: bold;
 }
 
 .subtitle > h4 {

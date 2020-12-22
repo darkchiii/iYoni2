@@ -136,7 +136,7 @@ padding-top: 147px;
 
 } 
 
-.text-wrapper2 > p {
+.p1 {
 
 font-weight: 400;
 font-size: 28px;
@@ -157,15 +157,24 @@ padding-bottom: 20px;
     border-radius: 72px;
     justify-content: center;
     text-align: center;
-    margin-top: 10px;
     align-items: center;
     z-index: -1 ;
 }
 
 .p-rec {
+    position: relative;
     text-align: center;
     color: #F45D92;
+    top: 42px;
+    font-size: 28px;
+    line-height: 34.16px;
+    letter-spacing: -1.1px;
+    font-weight: 400;
 
+}
+
+.p1 > span {
+    font-weight: bold;
 }
 
 .rectangle > p1 {
@@ -174,7 +183,7 @@ padding-bottom: 20px;
     line-height: 34.16px;
     letter-spacing: -1.1px;
     font-weight: 400;
-    color: #19126C; /*opacity*/
+    color: #F45D92; /*opacity*/
     padding-top: 10px;
 }
 

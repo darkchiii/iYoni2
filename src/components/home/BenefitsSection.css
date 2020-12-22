@@ -149,6 +149,7 @@ grid-gap: 16px;
   display: flex;
   flex-wrap: wrap;
   padding-left: 15px;
+  width: 560px;
 }
 
 .bHeading {
@@ -163,6 +164,12 @@ grid-gap: 16px;
 
 .bDescription {
   width: 100%;
+  font-size: 16px;
+  font-weight: 400px; 
+  line-height: 28px;
+  letter-spacing: -0.44px;
+  color: #1f3162;
+
 }
 
 

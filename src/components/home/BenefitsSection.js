@@ -29,10 +29,9 @@ function BenefitsSection() {
             </div>
             <div className='bContainer'>
               <div className='bHeading'>
-                Poznajesz lepiej swoje ciało i czynniki wpływające na Twoją płodność
-              </div>
+              Możesz precyzyjnie przewidywać dni płodne i przebieg cykli              </div>
               <div className='bDescription'>
-                Sprawdzone metody stworzone przez lekarzy.
+              Kalendarz cyklu, historia zdrowia.
               </div>
             </div>
           </li>
@@ -42,10 +41,9 @@ function BenefitsSection() {
             </div>
             <div className='bContainer'>
               <div className='bHeading'>
-                Poznajesz lepiej swoje ciało i czynniki wpływające na Twoją płodność
-              </div>
+              Otrzymujesz raporty i spersonalizowane wskazówki dot. Twojego zdrowia i starań              </div>
               <div className='bDescription'>
-                Sprawdzone metody stworzone przez lekarzy.
+              Porady od renomowanych lekarzy ginekologów na każdy etap ciąży.
               </div>
             </div>
           </li>
@@ -55,11 +53,9 @@ function BenefitsSection() {
             </div>
             <div className='bContainer'>
               <div className='bHeading'>
-                Poznajesz lepiej swoje ciało i czynniki wpływające na Twoją płodność
-              </div>
+              Sprawdzasz, jak zwiększyć szansę na poczęcie dziecka              </div>
               <div className='bDescription'>
-                Sprawdzone metody stworzone przez lekarzy.
-              </div>
+              Masz dostęp do bazy wiedzy, statystyk i rekomendacji, opracowanych przez ekspertów              </div>
             </div>
           </li>
           <li className='bListItem'>
@@ -68,11 +64,9 @@ function BenefitsSection() {
             </div>
             <div className='bContainer'>
               <div className='bHeading'>
-                Poznajesz lepiej swoje ciało i czynniki wpływające na Twoją płodność
-              </div>
+              Dowiadujesz się, jak diagnozować i leczyć zaburzenia płodności, by zostać mamą.                </div>
               <div className='bDescription'>
-                Sprawdzone metody stworzone przez lekarzy.
-              </div>
+              Jeśli zajdzie potrzeba, zostaniesz przekierowana na działania, które zwiększą szanse na ciążę                </div>
             </div>
           </li>
  
