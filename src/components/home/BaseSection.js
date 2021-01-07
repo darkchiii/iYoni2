@@ -3,8 +3,11 @@ import './BaseSection.css' ;
 
 function BaseSection() {
     return (
+
+
+
         <section className='base-section'>
-            <div className='base-rectangle'>
+             <div className='base-rectangle'>
                 <h1>Poznaj naszą bazę<br/> wiedzy</h1>
                 <div className='baseContainer'>
                 <div className='base-row-1'>
@@ -22,8 +25,11 @@ function BaseSection() {
                         <button className='btn'>Szanse na ciążę – od czego zależą</button>
                     </div>
                 </div>
-                </div>
-            </div>
+                </div> 
+                </div> 
+
+            
+
 
         </section>
     )

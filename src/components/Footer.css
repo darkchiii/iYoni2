@@ -112,10 +112,15 @@
   }
   
   
-  @media screen and (max-width: 820px) {
+  @media screen and (max-width: 768px) {
     .footer-links {
-      padding-top: 2rem;
+      padding-top: 1rem;
+       padding-left: 200px;
       justify-content: center;
+      max-width: 700px;
+    }
+
+    .footer-link-items > {
     }
   
     .footer-input {

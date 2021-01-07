@@ -11,6 +11,8 @@ import ExpertsSection from './components/home/ExpertsSection.js';
 import AppStoreSection from './components/home/AppStoreSection.js' ;
 import ValuesSection from './components/home/ValuesSection.js';
 import BaseSection from './components/home/BaseSection.js';
+import BaseSectionB from './components/home/BaseSectionB.js';
+
 function App() {
   return (
     <>
@@ -20,6 +22,7 @@ function App() {
         <MomSection/>
         <BenefitsSection/>
         <BaseSection/>
+        <BaseSectionB/>
         <FunctionsSection/>
         <ValuesSection/>
         <ExpertsSection/>

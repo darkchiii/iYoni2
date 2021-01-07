@@ -1,5 +1,4 @@
 import React from 'react' ;
-import { Link } from 'react-router-dom';
 import './MomSection.css' ;
 
 function MomSection() {
@@ -13,7 +12,7 @@ function MomSection() {
                     <div className='mom-column2-rectangle'>
                         <div className='text-wrapper'>
                         <div className='quote-icon'>
-                        <i class="fas fa-quote-left"/>
+                        <i className="fas fa-quote-left"/>
                         </div>
                         <div className='p2'>To działa! Jestem teraz mamą! <br/> Polecam w 100%</div>
                         <div className='p3'>~Basia, mama Kuby i Kasi.</div>

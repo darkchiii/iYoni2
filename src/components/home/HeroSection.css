@@ -14,7 +14,7 @@ padding-bottom: 68px;
     object-fit: contain ; 
 
     background-size: cover;
-    padding-bottom: 68px;
+    /* padding-bottom: 68px; */
 }
 
 
@@ -43,50 +43,46 @@ padding-bottom: 68px;
 
   }
 .hero-row {
-   /* display: grid; */
-   /* grid-template-columns: 529px 622px; */
-    /* grid-auto-columns: minmax(auto,lfr);
-    align-items: start;
-    justify-content: space-between; */
-
     display: flex;
     height: 100%;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    margin-left: 90px;
+    align-items: start;
+    /* margin-left: 90px; */
+    padding-left: 140px;
 }
 
 .hero-column-1 {
-/*padding-left: 30px; */
-/* padding-top: 121px; */ 
+/* padding-left: 140px; */
+padding-top: 181px; 
 display: flex ;
-width: 50%;
+flex-direction: column;
+
+width: 40%;
 flex-wrap: wrap;
 }
 
 .heroColumnHeading {
 font-weight: 600;
 font-size: 48px;
-line-height: 52.8px;
-letter-spacing: -4%;
+line-height: 53px;
+letter-spacing: -0.04em;
 color: #ffffff;
-padding-bottom: 25px;
+padding-bottom: 34px;
  /*czy w column?*/
 }
 
 .heroColumnSubHeading {
 font-weight: 400;
 font-size: 24px;
-line-height: 29.28px;
+line-height: 29px;
 letter-spacing: -1.1px;
 color: #ffffff;
 padding-bottom: 30px;
 }
 
 .store-logo-row {
-    padding-left: 0;
-    justify-content: center;
+    /* padding-left: 0; */
+    padding-top: 0px;
+    justify-content: left;
     display: grid ;
     grid-template-columns: 153px 153px ; /*jak zmniejszyc?*/
     column-gap: 22px;
@@ -97,17 +93,19 @@ grid:50%;
 }
 
 .hero-store-img {
-width: 153x;
+width: 100%;
 height: 52px;
 }
 
 .hero-column-2 {
 padding-top: 97px;
+/* padding-left: 100px; */
 }
 
 .app-img {
-    width: 722px;
-    height:605px ;
+    /* width: 722px; */
+    height:722px ;
+    padding-left: 0;
 }
 
 @media screen and (max-width: 768px) {
@@ -129,7 +127,7 @@ padding-top: 97px;
     }
 
     .hero-background {
-        background-image: "../images/hero-bg-mobile.png";
+        background-image: "./images/hero-bg-mobile.png";
     }
 
     .store-logo-row {

@@ -13,8 +13,8 @@ display: flex;
 position: absolute;
 left: 0;
 right: 0;
-justify-content: center;
-align-items: center;
+/* justify-content: center; */
+/* align-items: center; */
 /* font-size: 16px;
 font-weight: 600px;
 line-height: 19px; */
@@ -32,7 +32,7 @@ z-index: 999;
 
 .navbar-logo  {
     justify-self: start; 
-    margin-left: 0px ; /*dlaczego nie zaczyna sie od poczatku */
+    /* margin-left: 0px ; dlaczego nie zaczyna sie od poczatku */
     cursor: pointer;
   text-decoration: none;
   font-size: 2rem;
@@ -45,7 +45,10 @@ z-index: 999;
 .logo {
     height: 47.99px ;
     width: 100.48px ;
-    padding-right: 100px;
+    padding-left: 140px;
+    /* padding-right: 410px; */
+    position: absolute;
+
 }
 
 .nav-menu {
@@ -55,19 +58,22 @@ z-index: 999;
     list-style: none;
     text-align: center;
     width: 60vw;
-    justify-content: end;
-    margin-right: -2rem;
+    justify-items: end;
+    padding-left: 430px;
+    /* margin-right: -2rem; */
   }
 
   .nav-item {
-height: 80;  }
+/* height: 80;  */
+padding-top:15px;
+ }
 
   .nav-links {
       color: #1C1B4E ;
       display: flex;
       align-items: center;
       padding-right: 80px;
-      /*padding: 4rem 1.5rem;;*/
+      /* padding: 4rem 1.5rem;; */
       text-decoration: none;
       font-size: 16px;
    font-weight: bold;
@@ -75,6 +81,10 @@ height: 80;  }
     font-family: 'Averta';
     letter-spacing: -0.2px;
   }
+
+  /* .nav-items-container {
+ padding-left: 100px; 
+  } */
 
   .nav-links:hover {
     transition: all 0.2s ease-out;
@@ -133,15 +143,18 @@ height: 80;  }
   
     .navbar-logo {
       position: absolute;
-      top: 0;
-      left: 70px;
-      transform: translate(25%, 50%);
+      top: 40px;
+  transform: translate(25%, 50%);
+    }
+    .logo {
+      padding-left: 30px;      
+
     }
   
     .menu-icon {
       display: block;
       position: absolute;
-      top: 0;
+      top:0px;
       right: 0;
       transform: translate(-100%, 60%);
       font-size: 1.8rem;

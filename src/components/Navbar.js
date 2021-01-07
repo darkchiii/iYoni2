@@ -38,17 +38,12 @@ function Navbar() {
                 <ul className={click ? 'nav-menu active' : 'nav-menu'} >
                     <li className='nav-item'>
                         <Link to='/baza-wiedzy' className='nav-links' onClick={closeMobileMenu}>
-                            Baza wiedzy
+                            O iYoni
                         </Link>
                     </li>
                     <li className='nav-item'>
                         <Link to='/eksperci' className='nav-links' onClick={closeMobileMenu}>
-                            Eksperci
-                        </Link>
-                    </li>
-                    <li className='nav-item'>
-                        <Link to='/premium' className='nav-links' onClick={closeMobileMenu}>
-                            iYoni premium
+                            Baza wiedzy
                         </Link>
                     </li>
                     <li>
@@ -59,8 +54,8 @@ function Navbar() {
                             Pobierz aplikację
                         </Link>
                     </li>
+                    {button &&<Button>Pobierz aplikację</Button>}
                 </ul>
-                {button &&<Button>Pobierz aplikację</Button>}
             </div>
         </nav>
     )
