@@ -3,15 +3,19 @@ import Navbar from './components/Navbar.js';
 import Footer from './components/Footer.js' ;
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
-import HeroSection from './components/home/HeroSection.js';
-import MomSection from './components/home/MomSection.js' ;
-import BenefitsSection from './components/home/BenefitsSection' ;
-import FunctionsSection from './components/home/FunctionsSection.js';
-import ExpertsSection from './components/home/ExpertsSection.js';
-import AppStoreSection from './components/home/AppStoreSection.js' ;
-import ValuesSection from './components/home/ValuesSection.js';
-import BaseSection from './components/home/BaseSection.js';
-import BaseSectionB from './components/home/BaseSectionB.js';
+import HeroSection from './home/HeroSection.js';
+import MomSection from './home/MomSection.js' ;
+import BenefitsSection from './home/BenefitsSection' ;
+import FunctionsSection from './home/FunctionsSection.js';
+import ExpertsSection from './home/ExpertsSection.js';
+import AppStoreSection from './home/AppStoreSection.js' ;
+import ValuesSection from './home/ValuesSection.js';
+import BaseSection from './home/BaseSection.js';
+import BaseSectionB from './home/BaseSectionB.js';
+import AboutSecton from './home/AboutSection.js' ;
+import BioSection from './home/BioSection.js';
+import BioAppSection from './home/BioAppSection.js';
+// import Oiyoni from './oiyoni/Oiyoni.js' ;
 
 function App() {
   return (
@@ -27,8 +31,11 @@ function App() {
         <ValuesSection/>
         <ExpertsSection/>
         <AppStoreSection/>
+        <AboutSecton/> 
+        <BioSection/>
+        <BioAppSection/>
         <Switch>
-          <Route path='/' exact />
+          <Route path='/o-iyoni' exact />
         </Switch>
         <Footer/>
     </Router>

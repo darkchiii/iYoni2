@@ -1,0 +1,107 @@
+
+.bio-store-section {
+    margin-bottom: 80px;
+    }
+    
+    .bio-app-rectangle {
+        width: 1184px ;
+        height: 414px;
+        background: #4958AA;
+        border-radius: 40px ;
+        opacity: 100;
+        margin: 0 auto ; 
+        
+        position: relative;
+        background-position: right;
+        background-repeat: no-repeat ;
+        background-size: 100%;
+    }
+
+    .bio-app-logo {
+        width: 155px;
+        height: 74px;
+        padding-top: 50px;
+    }
+
+   .bio-app-container 
+    {
+        display:flex;
+        flex-flow: column;
+        justify-content: flex-start;
+        padding-left: 60px;
+    }
+    .bio-app-container > h3 {
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 50px;
+    padding-top:55px;
+    letter-spacing: -0.055em;
+    color: #ffffff;
+    }
+    
+
+    .bio-store-img-row {
+        justify-content: left;
+        display: grid ;
+        grid-template-columns: 170px 170px ;
+        column-gap: 20px;
+        padding-top: 50px;
+        }
+        
+        .bio-store-img-col {
+        grid: 50%;
+        }
+        
+        .bio-store-img {
+        width: 170px;
+        height: 57px;
+        }
+        
+        /*
+        .app-column-2 {
+        }*/
+        
+        .rec-img {
+        width: 538px ;
+        height: 414px;
+        position: absolute;
+        right: 0;
+        top:0px
+        
+        }
+
+        @media screen and (max-width: 768px) {
+            .bio-app-rectangle {
+                width: 1024px;
+                width: 100%;
+                background-size: 100%;
+                height: 1060.86px;
+                border-radius: 0px ;
+                margin: 0 auto ; 
+            }
+            .bio-store-img-row {
+                justify-content: center;
+
+                }
+
+
+                .bio-app-container 
+                {
+                    display:flex;
+                    flex-flow: column;
+                    justify-content: center;
+                    padding-top: 500px;
+                    /* padding-left: 0px; */
+                }
+
+                .rec-img {
+                    width: 538px ;
+                    height: 414px;
+                    position: absolute;
+                    /* right: 0; */
+                    left:0 ;
+                    top:0px
+
+        }
+
+    }

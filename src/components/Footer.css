@@ -115,13 +115,15 @@
   @media screen and (max-width: 768px) {
     .footer-links {
       padding-top: 1rem;
-       padding-left: 200px;
+       padding-left: 110px;
       justify-content: center;
       max-width: 700px;
     }
 
-    .footer-link-items > {
+    .footer-link-items  {
+      padding-right: 107px;
     }
+
   
     .footer-input {
       width: 100%;
