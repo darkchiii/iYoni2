@@ -57,6 +57,12 @@ function Footer() {
                     </div>
                 </div>
             </section>
+{/* 
+            <div className='footer-water-sign-container'>
+                <img className='footer-water-sgin-img' src='./images/footer-1.png' alt=''/>
+            </div> */}
+                            <img className='footer-vector' src='./images/vector-footer.png' alt=''/>
+
         </div>
     )
 }

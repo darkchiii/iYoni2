@@ -4,7 +4,8 @@ import './BenefitsSection.css' ;
 function BenefitsSection() {
     return (
         <section className='benefits-section' >
-                   
+            <img className='vector-benefits' src='./images/vector-b-3.png' alt='vector-b-3'
+               />
         <div className='list'>
             <div className='iphone-mockup-box'> 
             <img className='iphone-mockup' src='./images/iphone-mockup.png' alt='ip-mockup'/>

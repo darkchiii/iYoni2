@@ -11,10 +11,19 @@
     z-index: fixed;
   }
   
-  
+  .footer-vector {
+position: absolute;
+right:0 ;
+/* z-index: -100; */
+width: 999px ;
+height: 468px;
+top:-71px
+  }
+
   .footer-links {
     width: 100%;
-    max-width: 1160px; /*padding left*/
+    max-width: 1160px; 
+    /* padding left */
     display: flex;
     justify-content: left;
   }
@@ -27,12 +36,14 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    /* margin: 16px; */
+    margin: 13px;
     padding-top:83px ;
     padding-right: 137px;
+    padding-left: 20px;
     text-align: left;
     /* width: 160px; */
     box-sizing: border-box;
+    /* margin: 0 auto ; */
   }
   
   .footer-link-items h2 {
@@ -85,6 +96,7 @@
     /* width: 100%;
     max-width: 1000px;  */
     margin: 40px auto 0 auto;
+    padding-right: 20px;
   }
   
   .social-icons {
@@ -109,19 +121,51 @@
   .logo-footer {
     width:142.38px ;
     height: 68px ;
+    padding-left:30px;
   }
   
+  .footer-water-sign-container {
+display: flex;
+  }
+
+  .footer-water-sign-img {
+    width: 100%;
+    max-width: 899px;
+    height: 468px;
+    padding-bottom: 100px;
+  }
+
+  @media screen and (max-width: 500px) {
+    .footer-link-items {
+      /* margin: 30px ; */
+      max-width: 500px;
+    }
+
+    .footer-link-items a {
+      color: #fff;
+      font-size: 14px ;
+      line-height: 17.6px;
+      letter-spacing: -1.1px;
+      font-weight: 400;
+      text-decoration: none;
+      margin-bottom: 17px;
+    }
+  }
   
   @media screen and (max-width: 768px) {
     .footer-links {
       padding-top: 1rem;
-       padding-left: 110px;
+       /* padding-left: 0px; */
       justify-content: center;
       max-width: 700px;
+      width: 100%;
     }
 
     .footer-link-items  {
-      padding-right: 107px;
+      padding-right: 50px;
+      /* margin: 10px ; */
+      margin: 0 auto ;
+
     }
 
   
@@ -140,7 +184,13 @@
     .social-media-wrap {
       flex-direction: column;
     }
+
+    .logo-footer {
+      /* margin: 0 auto ; */
+      padding-right: 32px;
+    }
   }
+
   
   @media screen and (max-width: 768px) {
   }

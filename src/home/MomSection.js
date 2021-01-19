@@ -10,6 +10,9 @@ function MomSection() {
                     <img className='happy-mom-pic' src='./images/happy-mom.png' alt='happy-mom'/>
                     </div>
                     <div className='mom-column2-rectangle'>
+                    {/* <div className='quote-icon'>
+                        <i className="fas fa-quote-left"/>
+                    </div> */}
                         <div className='text-wrapper'>
                         <div className='quote-icon'>
                         <i className="fas fa-quote-left"/>
@@ -23,6 +26,7 @@ function MomSection() {
                     </div>
                 </div>
             </div>
+            <img className='vector-mom' src='./images/vector-mom.png' alt='vector-mom'/>
             <div className='text-wrapper2'>
                 <h1>Podjęłaś dezycję i<br/>chcesz zostać mamą?</h1> 
                 <p className='p1'><span>Zwiększ swoje szanse na zajście ciąże i zadbaj o płodność. </span> <br/>Dowiedz się, co na nią wpływa, prowadź „płodny” styl życia, z <br/> rozsądkiem się badaj. 

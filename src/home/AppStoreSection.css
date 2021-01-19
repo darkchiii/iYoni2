@@ -43,6 +43,18 @@ letter-spacing: -0.055em;
 color: #ffffff;
 }
 
+    /*
+    .app-column-1 > .h3-pink {
+        color: #F45D92  ;
+    }
+    .app-column-1 > .h3-white {
+        color: #ffffff;
+    }*/
+
+.pink {
+    color: #F45D92;
+}
+
 /*
 .app-column-1 > .h3-pink {
     color: #F45D92  ;
@@ -75,14 +87,35 @@ height: 57px;
 .phone-img {
 width: 513px ;
 height: 524px;
-
-
 position: absolute;
 top: -110px;
 right: 0;
-
+}
+.ellipse {
+    width:686px ;
+    height: 414px;
+    right: 0;
+    position: absolute;
+    top: 0px;
 }
 
+@media screen and (max-width:1000px) {
+.ellipse {
+    display: none ;
+}
+}
+
+@media screen and (max-width:890px) {
+    .phone-img {
+        display: none ;
+    }
+    }
+
+@media screen and (max-width:1178px) {
+.rectangle {
+    width: 100%;
+}
+}
 
 
 @media screen and (max-width:768px) {
@@ -92,7 +125,7 @@ right: 0;
     }
     
     .rectangle {
-    width: 1024px;
+    /* width: 768px; */
     width: 100%;
     background-repeat: no-repeat ;
     background-size: 100%;
@@ -135,13 +168,7 @@ right: 0;
     color: #ffffff;
     }
     
-    /*
-    .app-column-1 > .h3-pink {
-        color: #F45D92  ;
-    }
-    .app-column-1 > .h3-white {
-        color: #ffffff;
-    }*/
+
     
     .store-img-row {
     justify-content: left;
@@ -171,7 +198,7 @@ right: 0;
     width: 276.48px ;
     height: 282.41px; /*dlaczego nie zmienia sie wysokosc*/
     /* left: 143px; */
-    
+    display: inline-flex;
     position: absolute;
     top: 132px;
     right: -10px;

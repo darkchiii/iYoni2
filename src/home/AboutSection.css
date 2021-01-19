@@ -11,6 +11,8 @@
     background: #F45D92;
     background-repeat: no-repeat ;
     background-size: 100%;
+
+    /* position: absolute; */
     }
 
     .pink-rectangle >h1 {
@@ -35,6 +37,33 @@
         line-height: 32px; 
         letter-spacing: -1.1px; 
         color: #ffffff;
+    }
+
+
+
+    .b-vector-1 {
+ overflow: hidden;
+width: 100%;
+max-width: 120px;
+height: 121px; 
+left: 0;
+padding-top: 150px; 
+position: absolute;
+/* z-index: -100; */
+    }
+
+    .b-vector-2 {
+        /* overflow: hidden; */
+        width: 100%;
+        max-width: 540px;
+        max-height: 1200px; 
+        /* padding-bottom: 40px; */
+right: 0;
+/* top: 4220px; */
+position: absolute;
+/* z-index: -100; */
+
+
     }
 
     @media screen and (max-width:768px) {
@@ -67,4 +96,9 @@
         letter-spacing: -1.1px; 
         color: #ffffff;
     }
+    }
+    @media screen and (max-width: 1182px) {
+        .b-vector-2 {
+            display: none ;
+        }
     }

@@ -12,9 +12,23 @@ grid-area: vector-icon;
   height: 21px;
   width: 36px;
   padding-right: 10px;
-  padding-top:5px;
+  padding-top:7px;
 }
 
+.vector-benefits {
+  position: absolute;
+  /* width:  46%;
+  height: 100%; */
+width: 100%;
+  /* aspect-ratio: attr(width)/attr(height); */
+  max-width: 502px;
+  max-height: 1100px; 
+  /* height:1176px ;  */
+  /* min-height: 116px;
+  min-width: 503px; */
+  z-index: -100;
+  top:1550px;
+}
 
 .items-icon {
   padding-bottom: 0;
@@ -32,7 +46,8 @@ width: 46%;
 
 .iphone-mockup {
   height: 1205px;
-  width:  903px;
+  width: 100%;
+  max-width:  903px;
   position: absolute;
 }
 
@@ -41,9 +56,12 @@ width: 46%;
 .bList {
   list-style: none;
   display: flex;
+  /* flex-wrap: wrap; */
   flex-direction: column;
   padding-left: 720px;
   /* padding-top: -100px; */
+  flex:1;
+  /* max-width:570px ; */
 }
 
 .bListItem {
@@ -82,7 +100,22 @@ width: 46%;
 
 }
 
+@media screen and (max-width:1300px) {
+.iphone-mockup-box {
+  margin-left: -20px ;
+  width: 40%;
+}
 
+.bList {
+  padding-left: 650px;
+}
+}
+
+@media screen and (max-width:1024px) {
+  .iphone-mockup-box {
+    margin-left: -40px ;
+  }
+  }
 @media screen and (max-width:768px) {
   .list {
     margin: 0 auto;
@@ -180,6 +213,20 @@ margin:0 auto ;
   margin-top: -160px;
   /* width: 46%; */
   }
+
+
+.vector-benefits {
+  /* width:  43%; */
+  /* height: 70%; */
+  /* aspect-ratio: attr(width)/attr(he/ight); */
+  /* height: auto;
+  width: 502px; 
+  height:1076px ; */
+  /* min-height: 116px; */
+  /* min-width: 503px; */
+  z-index: -100;
+  top:1550px;
+}
   
 
 }

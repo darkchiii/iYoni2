@@ -15,21 +15,46 @@ function HeroSection() {
                     <div className='store-logo-row'>
                         <div className='store-logo-column'>
                             <a href='#'>
-                            <img className='hero-store-img' src='./images/app-store-logo.png' alt='img'/>
+                            <img className='hero-store-img' src='./images/app-store.png' alt='img'/>
                             </a>
                         </div>
                     <div className='store-logo-column'>
                         <a href='#'>
-                            <img className='hero-store-img' src='./images/app-store-logo.png' alt='img' />
+                            <img className='hero-store-img' src='./images/google-play-store.png' alt='img' />
                         </a>
                     </div>
                 </div>
             </div>
             <div className='hero-column-2'>
-                <img className='app-img' src='./images/LayerBanner.png' alt='banner' />
+                <img className='app-img' src='./images/hero-app.png' alt='banner' />
             </div>
         </div>
         </div>
+        </div>
+        <div className='hero-container-mobile' 
+        style={{backgroundImage: 'url(./images/hero-bg-mobile.png)'}}
+        > 
+        <div className='hero-mobile-text-container'>
+            <h1>Zadbaj o swoją <br/>płodność i zwiększ<br/> szanse na zajście<br/> w ciążę</h1>
+            <h2>Aplikacja opracowana przez lekarzy<br/> dla przyszłych mam - dba o zdrowie,<br/> przypomina i edukuje.</h2>
+        </div>
+        <div className='hero-mobile-images-container'>
+            <img className='img-mobile-1' src='./images/hero-mobile-1.png' alt='hero-mobile-1'/>
+            <img className='img-mobile-2' src='./images/hero-mobile-2.png' alt='hero-mobile-2'/>
+            </div>
+            <div className='store-logo-row-mobile'>
+                        <div className='store-logo-column-mobile'>
+                            <a href='#'>
+                            <img className='hero-store-img-mobile' src='./images/app-store.png' alt='img'/>
+                            </a>
+                        </div>
+                    <div className='store-logo-column-mobile'>
+                        <a href='#'>
+                            <img className='hero-store-img-mobile' src='./images/google-play-store.png' alt='img' />
+                        </a>
+                    </div>
+                </div>
+
         </div>
         </section>
 

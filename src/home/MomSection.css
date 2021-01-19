@@ -61,11 +61,12 @@ z-index: -1;
     color: #31429B; 
     text-align: left;
     padding-bottom: 15px;
-} 
-
+}
 .quote-icon {
 font-size: 3rem;
 color: #31429B;
+/* left: 0px; */
+/* padding-right: 200px; */
 /* padding-bottom: 15px; */
 /* padding-top: 58px ; */
 }
@@ -167,10 +168,11 @@ padding-bottom: 20px;
 
 @media screen and (max-width: 768px ) {
 .quote-icon {
-font-size: 2rem;
+font-size: 2em;
+padding-right:280px;
 /* margin-left: 0; */
-padding-right: 280px;
-padding-top: 130px;
+/* padding-right: 280px; */
+/* padding-top: 135px; */
 }
 
 
@@ -185,6 +187,7 @@ padding-top: 130px;
         text-align: left;
         margin-bottom: 0;
         /* padding-left: 0px; */
+
     }
 
     .p3 {
@@ -193,14 +196,20 @@ padding-top: 130px;
         /* padding-bottom: 8px; */
         /* padding-left: 0px; */
 
+
     }
 
     .text-wrapper {
         padding-bottom: 69px;
         padding-right: 0px;
-        padding-left: 70px;
+        /* padding-left: 70px; */
         /* position: absolute; */
         text-align: center;
+        padding-left: 70px;
+    }
+
+    .text-wrapper > .quote-icon {
+        /* padding-left: -0px; */
     }
 
     .base-button {
@@ -245,8 +254,18 @@ padding-top: 130px;
 
 .p-rec {
     top: 19px;
-
 }
+}
+
+.vector-mom {
+    position: absolute ;
+    right: 0;
+    top: 1350px;
+    max-width: 972px;
+    /* height: 100%; */
+    /* max-width: 100%; */
+    max-height: 650px;
+    z-index: -100;
 }
 
 @media screen and (max-width: 768px ) {

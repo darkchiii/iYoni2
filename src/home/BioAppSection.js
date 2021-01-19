@@ -11,14 +11,17 @@ function BioAppSection() {
 w służbie Twoich marzeń.</h3>
                     <div className='bio-store-img-row'>
                             <div className='bio-store-img-col'>
-                                <img className='bio-store-img' src='./images/app-store-logo.png' alt='store-img'/>
+                                <img className='bio-store-img' src='./images/app-store.png' alt='store-img'/>
                             </div>
                             <div className='bio-store-img col'>
-                                <img className='bio-store-img' src='./images/app-store-logo.png' alt='store-img'/>
+                                <img className='bio-store-img' src='./images/google-play-store.png' alt='store-img'/>
                             </div>
                         </div>
+                        </div>
+
                 <img className='rec-img' src='./images/bio-rec.png' alt='bio-img'/>
-                </div>
+                <img className='rec-img-mobile' src='./images/bio-rec-mobile.png' alt='bio-img-mobile'/>
+                {/* </div> */}
 
             </div>
         </section>
