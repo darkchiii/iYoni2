@@ -17,7 +17,11 @@ w służbie Twoich marzeń.</h3>
                                 <img className='bio-store-img' src='./images/google-play-store.png' alt='store-img'/>
                             </div>
                         </div> */}
+                        
                      <img className='bio-store-img' src='./images/google-play-store.png' alt='store-img'/>
+                        
+                     {/* <img className='rec-img' src='./images/bio-rec.png' alt='bio-img'/>
+                <img className='rec-img-mobile' src='./images/bio-rec-mobile.png' alt='bio-img-mobile'/> */}
                         </div>
 
                 <img className='rec-img' src='./images/bio-rec.png' alt='bio-img'/>

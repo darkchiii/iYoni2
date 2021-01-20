@@ -7,9 +7,10 @@ flex-wrap: wrap;
 .vector-b-3 {
   position: absolute;
   overflow: hidden;
-  max-width: 1479px;
-  max-height:1366px ;
+  width: 40%;
+  height:1490px ;
   z-index: -100;
+  /* top:7200px; */
   /* width: 100%; */
   /* bottom: 20px; */
 
@@ -113,6 +114,9 @@ margin: 0 auto;
     }
     
     @media screen and (max-width:768px) {
+      .vector-b-3 { 
+        display: none;
+      }
         .bio-container {
             padding-bottom: 20px;
             }

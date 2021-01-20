@@ -5,7 +5,7 @@
     
     .bio-app-rectangle {
         max-width: 1184px ;
-        height: 414px;
+        /* max-height: 414px; */
         background: #4958AA;
         border-radius: 40px ;
         opacity: 100;
@@ -29,6 +29,7 @@
         display:flex;
         flex-flow: column;
         margin: 0 auto ;
+        padding-bottom: 38px;
         /* justify-content: flex-start; */
         /* justify-content: center; */
         padding-left: 60px;
@@ -153,7 +154,7 @@
                     display: inline;
                     width: 100% ;
                     max-width: 768px;
-                    max-height: auto;
+                    max-height: 100%;
                     position: absolute;
                     /* right: 0; */
                     /* left:0 ; */

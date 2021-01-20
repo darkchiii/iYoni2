@@ -15,9 +15,10 @@
 position: absolute;
 right:0 ;
 /* z-index: -100; */
-width: 999px ;
-height: 468px;
-top:-71px
+width: 66% ;
+height: auto;
+/* top:-71px */
+bottom: 0;
   }
 
   .footer-links {

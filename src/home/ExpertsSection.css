@@ -81,6 +81,14 @@ width: 63px;
 height: 68px;
 }
 
+.carousel-container-b {
+    padding-top:30px ;
+    margin: 0 auto;
+    max-width: 820px;
+}
+
+
+
 @media screen and (max-width:768px)
 {
     .experts-section {

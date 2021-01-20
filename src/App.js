@@ -24,21 +24,21 @@ function App() {
     <>
       <Router>
         <Navbar />
-        {/* <HeroSection/>
+        <HeroSection/>
         <MomSection/>
         <BenefitsSection/>
         <BaseSection/>
         <FunctionsSection/>
         <ValuesSection/>
         <ExpertsSection/>
-        <AppStoreSection/>  */}
+        <AppStoreSection/> 
         <Switch>
-        <Route path='/' exact component={Home} />
+        {/* <Route path='/' exact component={Home} /> */}
         <Route path='/o-iyoni' component={OIyoni} />
         </Switch>
-        {/* <AboutSecton/>
+        <AboutSecton/>
         <BioSection/>
-        <BioAppSection/> */}
+        <BioAppSection/>
         <Footer/>
     </Router>
     </>
