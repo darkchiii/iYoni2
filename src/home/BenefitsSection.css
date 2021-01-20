@@ -77,7 +77,9 @@ width: 46%;
   display: flex;
   flex-wrap: wrap;
   padding-left: 15px;
-  width: 560px;
+
+  max-width: 500px;
+  min-width: 200px;
 }
 
 .bHeading {

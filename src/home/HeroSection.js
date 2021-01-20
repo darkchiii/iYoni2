@@ -15,13 +15,13 @@ function HeroSection() {
                     <div className='store-logo-row'>
                         <div className='store-logo-column'>
                             <a href='#'>
-                            <img className='hero-store-img' src='./images/app-store.png' alt='img'/>
+                            <img className='hero-store-img' src='./images/google-play-store.png' alt='img'/>
                             </a>
                         </div>
                     <div className='store-logo-column'>
-                        <a href='#'>
+                        {/* <a href='#'>
                             <img className='hero-store-img' src='./images/google-play-store.png' alt='img' />
-                        </a>
+                        </a> */}
                     </div>
                 </div>
             </div>
@@ -41,20 +41,20 @@ function HeroSection() {
         <div className='hero-mobile-images-container'>
             <img className='img-mobile-1' src='./images/hero-mobile-1.png' alt='hero-mobile-1'/>
             <img className='img-mobile-2' src='./images/hero-mobile-2.png' alt='hero-mobile-2'/>
-            </div>
-            <div className='store-logo-row-mobile'>
-                        <div className='store-logo-column-mobile'>
-                            <a href='#'>
-                            <img className='hero-store-img-mobile' src='./images/app-store.png' alt='img'/>
-                            </a>
-                        </div>
-                    <div className='store-logo-column-mobile'>
+            {/* </div> */}
+            {/* <div className='store-logo-row-mobile'> */}
+                        {/* <div className='store-logo-column-mobile'> */}
+                            {/* <a href='#'> */}
+                            <img className='hero-store-img-mobile' src='./images/google-play-store.png' alt='img'/>
+                            {/* </a> */}
+                        {/* </div> */}
+                    {/* <div className='store-logo-column-mobile'>
                         <a href='#'>
                             <img className='hero-store-img-mobile' src='./images/google-play-store.png' alt='img' />
                         </a>
-                    </div>
+                    </div> */}
+                {/* </div> */}
                 </div>
-
         </div>
         </section>
 

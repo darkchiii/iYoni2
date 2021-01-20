@@ -47,7 +47,7 @@ function FunctionsSection() {
 </div>
 
 
-<div className='app-stores-wrapper'>
+{/* <div className='app-stores-wrapper'>
                 <div className='store-row'>
                     <div className='store-column'>
                         <img className='store-img' src='./images/app-store.png' alt='apple-store'/>
@@ -56,7 +56,11 @@ function FunctionsSection() {
                         <img className='store-img' src='./images/google-play-store.png' alt='google-store'/>
                     </div>
                 </div>
-            </div> 
+            </div>  */}
+
+            <div className='google-store-wrapper'>
+            <img className='store-img-2' src='./images/google-play-store.png' alt='google-store'/>
+            </div>
 
 
         </section>

@@ -87,6 +87,7 @@ padding-bottom: 40px;
 .store-logo-row {
     padding-top: 0px;
     justify-content: left;
+    justify-content: center;
     display: grid ;
     grid-template-columns: 153px 153px ; 
     column-gap: 22px;
@@ -178,6 +179,8 @@ grid:50%;
 .hero-store-img-mobile {
 max-width: 108px;
 height: 37px;
+margin: 0 auto ;
+/* justify-content: center; */
 }
 
 
@@ -236,7 +239,7 @@ height: 37px;
         font-size: 16px ;
     }
 
-    .store-img {  /*dlaczego si enie aplikuje?*/
+    .store-img {  
         width: 108px; 
         height: 37px;
     }
@@ -248,7 +251,8 @@ height: 37px;
     }
 
     .store-logo-row {
-        grid-template-columns: 108px 108px ; /*nie dziala*/
+        grid-template-columns: 108px 108px ; 
+        /* grid-template-columns: 108px  ;  */
 
     }
     .hero-container-mobile 

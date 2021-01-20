@@ -10,14 +10,18 @@ function AppStoreSection() {
                         <h3>Zadbaj o swoją płodność z 
                         <b className='pink'> iyoni</b>
                         </h3>
-                        <div className='store-img-row'>
+                        {/* <div className='store-img-row'>
                             <div className='store-img-col'>
                                 <img className='store-img' src='./images/app-store.png' alt='store-img'/>
                             </div>
                             <div className='store-img col'>
                                 <img className='store-img' src='./images/google-play-store.png' alt='store-img'/>
                             </div>
-                        </div>
+                        </div> */}
+
+                        {/* <div className='google-store-wrap' > */}
+                        <img className='store-img' src='./images/google-play-store.png' alt='store-img'/>
+                        {/* </div> */}
                     </div>
                 </div>
                 <img className='ellipse' src='./images/elipsa.png' alt='elipsa'/>
