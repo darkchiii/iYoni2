@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/iYoni2/static/css/main.c9a848ac.chunk.css",
-    "main.js": "/iYoni2/static/js/main.83de2413.chunk.js",
-    "main.js.map": "/iYoni2/static/js/main.83de2413.chunk.js.map",
+    "main.css": "/iYoni2/static/css/main.a3ebc8a8.chunk.css",
+    "main.js": "/iYoni2/static/js/main.cce25af2.chunk.js",
+    "main.js.map": "/iYoni2/static/js/main.cce25af2.chunk.js.map",
     "runtime-main.js": "/iYoni2/static/js/runtime-main.72fc74de.js",
     "runtime-main.js.map": "/iYoni2/static/js/runtime-main.72fc74de.js.map",
-    "static/js/2.a88d1668.chunk.js": "/iYoni2/static/js/2.a88d1668.chunk.js",
-    "static/js/2.a88d1668.chunk.js.map": "/iYoni2/static/js/2.a88d1668.chunk.js.map",
+    "static/js/2.cd44660d.chunk.js": "/iYoni2/static/js/2.cd44660d.chunk.js",
+    "static/js/2.cd44660d.chunk.js.map": "/iYoni2/static/js/2.cd44660d.chunk.js.map",
     "index.html": "/iYoni2/index.html",
-    "static/css/main.c9a848ac.chunk.css.map": "/iYoni2/static/css/main.c9a848ac.chunk.css.map",
-    "static/js/2.a88d1668.chunk.js.LICENSE.txt": "/iYoni2/static/js/2.a88d1668.chunk.js.LICENSE.txt"
+    "static/css/main.a3ebc8a8.chunk.css.map": "/iYoni2/static/css/main.a3ebc8a8.chunk.css.map",
+    "static/js/2.cd44660d.chunk.js.LICENSE.txt": "/iYoni2/static/js/2.cd44660d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.72fc74de.js",
-    "static/js/2.a88d1668.chunk.js",
-    "static/css/main.c9a848ac.chunk.css",
-    "static/js/main.83de2413.chunk.js"
+    "static/js/2.cd44660d.chunk.js",
+    "static/css/main.a3ebc8a8.chunk.css",
+    "static/js/main.cce25af2.chunk.js"
   ]
 }
