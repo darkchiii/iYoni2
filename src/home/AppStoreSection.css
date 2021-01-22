@@ -19,7 +19,7 @@ background-size: 100%;
 
 .app-store-row {
 display: grid;
-width: 1184px;
+/* width: 1184px; */
 grid-template-columns: 511px 513px ;
 align-items: start;
 justify-content: space-between;

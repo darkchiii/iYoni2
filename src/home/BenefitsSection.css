@@ -42,13 +42,16 @@ z-index: -1;
 display: inline-block ;
 vertical-align: top ;
 margin-top: -160px;
-width: 46%;
+/* width: 46%; */
 }
 
 .iphone-mockup {
-  height: 1205px;
-  width: 100%;
+  /* height: 1205px; */
+  /* max-width: 120%; */
+  height: auto;
+  width: 60%;
   max-width:  903px;
+
   position: absolute;
 }
 
@@ -80,7 +83,7 @@ width: 46%;
   padding-left: 15px;
 
   max-width: 500px;
-  min-width: 200px;
+  /* min-width: 200px; */
 }
 
 .bHeading {
@@ -104,20 +107,32 @@ width: 46%;
 }
 
 @media screen and (max-width:1300px) {
-.iphone-mockup-box {
+/* .iphone-mockup-box {
   margin-left: -20px ;
   width: 40%;
-}
+} */
 
 .bList {
   padding-left: 650px;
 }
 }
 
-@media screen and (max-width:1024px) {
-  .iphone-mockup-box {
-    margin-left: -40px ;
+@media screen and (max-width:1199px) {
+.bList {
+  padding-left: 550px ;
+}
+}
+
+@media screen and (max-width:1199px) {
+  .bList {
+    padding-left: 460px ;
   }
+  }
+
+@media screen and (max-width:1024px) {
+  /* .iphone-mockup-box {
+    margin-left: -40px ;
+  } */
   }
 @media screen and (max-width:768px) {
   .list {
@@ -168,7 +183,7 @@ margin:0 auto ;
   
   .bDescription {
     text-align: left;
-    width: 100%;
+    /* width: 100%; */
     font-size: 13px;
     font-weight: 400px; 
     line-height: 16.9px;

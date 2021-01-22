@@ -148,12 +148,12 @@ padding-bottom: 20px;
     font-size: 28px;
     line-height: 34.16px;
     letter-spacing: -1.1px;
-    font-weight: 400;
+    font-weight: bold;
 
 }
 
 .p1 > span {
-    font-weight: bold;
+    font-weight: 1000;
 }
 
 .rectangle > p1 {
