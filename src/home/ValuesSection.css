@@ -41,6 +41,7 @@ width: 100%;
 .values-row {
     display: grid;
     grid-template-columns: 48px 350px 500px;
+    grid-template-rows: auto;
      /*grid-auto-columns: minmax(auto,lfr);*/
      grid-column-gap: 27px   ;
      align-items: start;
@@ -49,9 +50,22 @@ width: 100%;
      padding-left: 84px;
 }
 
-/*
+
 .values-col-1 {
-}*/
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.values-col-2 {
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.values-col-3 {
+    grid-row: 1;
+    grid-column: 3;
+}
+
 
 .values-icon {
     width: 48px;
@@ -110,16 +124,48 @@ margin-left: 29px ;
 margin-bottom: 40px;
 }
 
+
+
 @media screen and (max-width: 725px) {
+
+    .values-rectangle { 
+        padding-bottom: 590px;
+    }
+
     .values-row {
         display: grid;
-        grid-template-columns: 270px;
+        /* grid-template-columns: 270px; */
+        grid-template-columns: 300px;
+        /* grid-template-rows: 30px 45px 110px; */
         grid-template-rows: 30px 45px 110px;
          grid-row-gap: 30px   ;
          align-items: start;
-         padding-left: 40px;
+         padding-left: none;
+        margin-inline: -35px;
         padding-bottom: 26px;
     }
+
+    .values-col-1 {
+        grid-row: 1;
+        /* grid-column: 1; */
+        grid-column: auto / span 2;
+        padding-right: 40px;
+    }
+
+    .values-col-2 {
+        grid-row: 2;
+        grid-column: 1;
+        grid-column: auto / span 2;
+        padding-right: 40px;
+    }
+
+    .values-col-3 {
+        grid-row: 3;
+        grid-column: 1;
+        grid-column: auto / span 2;
+        padding-right: 40px;
+    }
+    
 }
 
 
@@ -161,7 +207,8 @@ margin-bottom: 40px;
 
         .values-row {
             display: grid;
-            grid-template-columns: 48px 150px auto;
+            grid-template-columns: 48px 150px 500px;
+            grid-template-rows: auto;
              /*grid-auto-columns: minmax(auto,lfr);*/
              grid-column-gap: 27px   ;
              align-items: start;
@@ -180,7 +227,7 @@ margin-bottom: 40px;
     
     .values-section-container {
         padding-left: 60px;
-        padding-bottom: 340px;
+        /* padding-bottom: 340px; */
         }
         
         .values-rectangle {
@@ -188,6 +235,7 @@ margin-bottom: 40px;
         height: 792px;
         background: linear-gradient(180deg, #F4F7FF 0%, #FFFFFF 100%);
         border-radius: 60px;
+        border-top-right-radius: 0;
         /* margin-left: 10px;  */
         /* margin-top: 93px; */
         }

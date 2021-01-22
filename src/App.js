@@ -3,8 +3,8 @@ import Navbar from './components/Navbar.js';
 import Footer from './components/Footer.js' ;
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
-import Home from './components/pages/Home';
-import OIyoni from './components/pages/OIyoni';
+import Home from './components/routes/Home';
+import OIyoni from './components/routes/OIyoni';
 
 import HeroSection from './home/HeroSection.js';
 import MomSection from './home/MomSection.js' ;
@@ -33,12 +33,12 @@ function App() {
         <ExpertsSection/>
         <AppStoreSection/> 
         <Switch>
-        {/* <Route path='/' exact component={Home} /> */}
+        <Route path='/'  component={Home} exact/>
         <Route path='/o-iyoni' component={OIyoni} />
         </Switch>
-        <AboutSecton/>
+        {/* <AboutSecton/>
         <BioSection/>
-        <BioAppSection/>
+        <BioAppSection/> */}
         <Footer/>
     </Router>
     </>

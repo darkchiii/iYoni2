@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom' ;
+
 import './HeroSection.css';
 
 function HeroSection() {
@@ -26,8 +28,10 @@ function HeroSection() {
                 </div>
             </div>
             <div className='hero-column-2'>
+                <Link to='/https://getbootstrap.com/docs/5.0/layout/breakpoints/'>
                 <img className='app-img' src='./images/hero-app.png' alt='banner' />
-            </div>
+                </Link>
+        </div>
         </div>
         </div>
         </div>
