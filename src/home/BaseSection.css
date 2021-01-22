@@ -85,6 +85,8 @@ padding-top: 76px;
     width:94%;
 
     border-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
     padding-top: 20px;
     /* position: relative; */
     /* border-radius: 5%; */
@@ -103,9 +105,16 @@ padding-top: 76px;
   align-items: center;
   justify-content: center;
   padding-top:60px;
+  margin: 0 auto;
   /* padding-top: 60px; */
   /* margin-bottom: 20px; */
   /* position: relative; */
+  max-width: 1300px;
+
+}
+
+.rec.rec-slider-container {
+  /* max-width: 1000px; */
 }
 
 
@@ -173,6 +182,12 @@ display: none;
 .rec-carousel-item:focus {
   outline: none;
   box-shadow: none;
+}
+
+@media screen and (min-width:1200px) {
+  button.rec-dot {
+    display: none;
+  }
 }
 
 @media screen and (max-width:420px)

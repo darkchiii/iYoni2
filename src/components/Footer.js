@@ -22,7 +22,7 @@ function Footer() {
                 <div className='footer-link-wrapper'>
                     <div className='footer-link-items'>
                         <Link to='/'>Pobierz aplikację</Link>
-                        <Link to='/'>iyoni premium</Link>
+                        <Link to='/'>iYoni pro</Link>
                     </div>
                 </div>
 

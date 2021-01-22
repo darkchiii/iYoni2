@@ -11,7 +11,7 @@ function FunctionsSection() {
     <div className='flex-container'>
         <div className='flex-col-container-a'>
             <img className='fun-icon' src='./images/fun1.png' alt='1'/>    
-            <p className='fun-description-c'>Monitoring cyklu i dni płodnych</p>
+            <p className='fun-description'>Monitoring cyklu i dni płodnych</p>
         </div>
         <div className='flex-col-container-a'>
             <img className='fun-icon' src='./images/fun2.png' alt='2'/>    
@@ -23,7 +23,7 @@ function FunctionsSection() {
         </div>
         <div className='flex-col-container-a'>
             <img className='fun-icon' src='./images/fun4.png' alt='4'/>    
-            <p className='fun-description-b'>Prognozy szans na ciążę</p>
+            <p className='fun-description'>Prognozy szans na ciążę</p>
         </div>
     </div>
 </div>
@@ -31,16 +31,16 @@ function FunctionsSection() {
 <div className='flex-wrapper-b'>
     <div className='flex-container'>
         <div className='flex-col-container-b'>
-            <img className='fun-icon' src='./images/fun5.png' alt='5'/>    
-            <p className='fun-description-c'>Monitoring cyklu i dni płodnych</p>
+            <img className='fun-icon-a' src='./images/fun5.png' alt='5'/>    
+            <p className='fun-description-d'>Podpowiedzi dla Ciebie, co zrobić, by zajść w ciążę * </p>
         </div>
         <div className='flex-col-container-b'>
             <img className='fun-icon' src='./images/fun6.png' alt='6'/>    
-            <p className='fun-description-c'>Rejestracja codziennych aktywności</p>
+            <p className='fun-description-c'>Powiadomienia dla partnera *</p>
         </div>
         <div className='flex-col-container-b'>
             <img className='fun-icon' src='./images/fun7.png' alt='7'/>    
-            <p className='fun-description'>Spersonalizowane raporty i wskazówki</p>
+            <p className='fun-description-b'>Ekspercka baza wiedzy</p>
         </div>
 
     </div>

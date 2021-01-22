@@ -95,3 +95,9 @@ height: 68px;
     padding-bottom: 70px;
     }
 }
+
+@media screen and (min-width:768px) {
+    button.rec-dot {
+      display: none;
+    }
+  }

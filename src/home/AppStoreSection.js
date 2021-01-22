@@ -8,7 +8,7 @@ function AppStoreSection() {
                 <div className='app-store-row'>
                     <div className='app-column-1'>
                         <h3>Zadbaj o swoją płodność z 
-                        <b className='pink'> iyoni</b>
+                        <b className='pink'> iYoni</b>
                         </h3>
                         {/* <div className='store-img-row'>
                             <div className='store-img-col'>
